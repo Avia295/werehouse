@@ -16,7 +16,7 @@ Merupakan sebuah aplikasi berbasis web yang berfungsi untuk melakukan pendataan 
 
 # Penjelasan Kode Program
 ## Model
-###Pagination_model
+### Pagination_model
 
 ![Screenshot (16)](https://user-images.githubusercontent.com/61825704/147484664-91ff97f9-b868-4dac-b946-ed7a4d77e4d4.png)
 
@@ -25,7 +25,7 @@ kode Pagination_model diatas berfungsi untuk membuat pagination pada website.
  - Line 6 - 8 pada fungction dataProduct berfungsi untuk mengambil data pada tabel products.
  - Line 11 - 13 pada function jumlah_data berfungsi untuk mengambil berapa banyak data yang ada pada tabel products saat ini.
  
-###Product_model
+### Product_model
 
  ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147485519-264edecd-cccb-4a4b-9ee8-3c664afb0eb4.png)
 
@@ -67,7 +67,7 @@ kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan
  - Line 93 mengambil data product yang memiliki id = '$id'.
  - Line 96 - 99 melakukan penghapusan image apabila image tidak bernilai "default.jpg".
  
-###User_model
+### User_model
 
  ![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147489978-db3222b2-c6f2-41e4-bf51-4112173e159f.png)
  
