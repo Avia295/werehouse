@@ -75,7 +75,9 @@ kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada w
  
  - Line 5 - 11 membuat variabel $_tabel, $user_id, $full_name, $password, $email, $role yang berfungsi untuk menampung data form yang diinput client.
  - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
+
  ![Screenshot (22)](https://user-images.githubusercontent.com/61825704/147490248-ec67b1dd-3181-48b1-8492-75f3b9d0c45a.png)
+	
  - Line 60 - 77 pada function doLogin berfungsi untukverifikasi login apakah username dan password benar jika benar maka akan diarahkan kedalam dashboard jika salah maka akan dikembalikan di laman login.
  - Line 61 data inputan disimpan kedalam **$post**
  - Line 63 - 65 mengambil data pada tabel user yang memiliki email = email input dan username = username input.
