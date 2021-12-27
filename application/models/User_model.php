@@ -37,26 +37,6 @@ class User_model extends CI_Model
         return $this->db->get_where($this->_table, ["user_id" => $id])->row();
     }
 
-    public function save()
-    {
-        $post = $this->input->post();
-        $this->full_name = $post["full_name"];
-        $this->email = $post["email"];
-        $this->password = password_hash($post["password"], PASSWORD_DEFAULT);
-        $this->role = $post["role"] ?? "customer";
-        $this->db->insert($this->_table, $this);
-    }
-
-    public function update()
-    {
-        $post = $this->input->post();
-        $this->full_name = $post["full_name"];
-        $this->username = $post["username"];
-        $this->password = $post["password"];
-        $this->email = $post["email"];
-        $this->db->update($this->_table, $this, array('user_id' => $post['id']));
-    }
-
     public function doLogin(){
 		$post = $this->input->post();
 
