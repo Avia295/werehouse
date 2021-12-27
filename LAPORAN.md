@@ -16,12 +16,14 @@ Merupakan sebuah aplikasi berbasis web yang berfungsi untuk melakukan pendataan 
 
 # Penjelasan Kode Program
 ## Model
-![Screenshot (16)](https://user-images.githubusercontent.com/61825704/147484664-91ff97f9-b868-4dac-b946-ed7a4d77e4d4.png)kode Pagination_model diatas berfungsi untuk membuat pagination pada website. 
+![Screenshot (16)](https://user-images.githubusercontent.com/61825704/147484664-91ff97f9-b868-4dac-b946-ed7a4d77e4d4.png)
+kode Pagination_model diatas berfungsi untuk membuat pagination pada website. 
 
  - Line 6 - 8 pada fungction dataProduct berfungsi untuk mengambil data pada tabel products.
  - Line 11 - 13 pada function jumlah_data berfungsi untuk mengambil berapa banyak data yang ada pada tabel products saat ini.
  
- ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147485519-264edecd-cccb-4a4b-9ee8-3c664afb0eb4.png)kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan dalam website.
+ ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147485519-264edecd-cccb-4a4b-9ee8-3c664afb0eb4.png)
+	kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan dalam website.
  
  - Line 5 - 11 membuat variabel $_table, $product_id, $image, $name, $quantity, $description yang berfungsi untuk menampung data form yang diinput client.
  - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
@@ -56,7 +58,8 @@ Merupakan sebuah aplikasi berbasis web yang berfungsi untuk melakukan pendataan 
  -  Line 93 - 100 pada function _deleteImage berfungsi untuk menghapus gambar dengan id = '$id'.
  - Line 93 mengambil data product yang memiliki id = '$id'.
  - Line 96 - 99 melakukan penghapusan image apabila image tidak bernilai "default.jpg".
- ![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147489978-db3222b2-c6f2-41e4-bf51-4112173e159f.png)kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada website.
+ ![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147489978-db3222b2-c6f2-41e4-bf51-4112173e159f.png)
+	kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada website.
  
  - Line 5 - 11 membuat variabel $_tabel, $user_id, $full_name, $password, $email, $role yang berfungsi untuk menampung data form yang diinput client.
  - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
