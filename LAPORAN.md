@@ -16,7 +16,57 @@ Merupakan sebuah aplikasi berbasis web yang berfungsi untuk melakukan pendataan 
 
 # Penjelasan Kode Program
 ## Model
+![Screenshot (16)](https://user-images.githubusercontent.com/61825704/147484664-91ff97f9-b868-4dac-b946-ed7a4d77e4d4.png)kode Pagination_model diatas berfungsi untuk membuat pagination pada website. 
 
+ - Line 6 - 8 pada fungction dataProduct berfungsi untuk mengambil data pada tabel products.
+ - Line 11 - 13 pada function jumlah_data berfungsi untuk mengambil berapa banyak data yang ada pada tabel products saat ini.
+ 
+ ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147485519-264edecd-cccb-4a4b-9ee8-3c664afb0eb4.png)kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan dalam website.
+ 
+ - Line 5 - 11 membuat variabel $_table, $product_id, $image, $name, $quantity, $description yang berfungsi untuk menampung data form yang diinput client.
+ - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
+ - Line 30 - 33 pada function getAll berfungsi untuk mengambil seluruh isi tabel, kode ini sama seperti kode sql berikut :
+
+> SELECT * FROM products;
+
+![Screenshot (18)](https://user-images.githubusercontent.com/61825704/147486253-3c68fb2f-b75c-4c34-aba2-e64f2370a163.png)
+
+ - Line 35 - 38 pada function getById berfungsi untuk mengambil data pada tabel product yang memiliki id = $id, kode ini sama seperti kode sql berikut :
+ 
+
+> SELECT * FROM products WHERE id = '$id'
+
+ - Line 40 - 48 pada function save berfungsi untuk menyimpan inputan form yang dikirim melalui method POST dan menyimpannya ke dalam tabel product sebagai data produk baru. 
+ - Line 42 data inputan disimpan kedalam **$post**.
+ - Line 43 - 46 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
+ - Line 47 menginput data produk baru ke dalam tabel product.
+ - Line 50 - 66 pada function update berfungsi untuk mengupdate isi tabel product dengan id tertentu .
+ - Line 52 data inputan disimpan kedalam **$post**.
+ - Line 53 - 64 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
+ - Line 65 mengupdate data produk yang baru untuk menggantikan data produk lama yang memiliki id = '$id'.
+ ![Screenshot (19)](https://user-images.githubusercontent.com/61825704/147487407-e9726f29-b88a-47c6-8edd-91fe610002b0.png)
+ - Line 68 - 72 pada function delete berfungsi untuk menghapus data produk dengan id = '$id' pada tabel products.
+ - Line 70 memanggil fungsi _deleteImage untuk menghapus image.
+ - Line 71 menghapus data produk dengan id = 'id'.
+ - Line 74 - 91 pada function _uploadImage berfungsi untuk mengupload image dengan ketentuan tertentu.
+ - Line 76 - 80 mengkonfigurasi image yang akan diupoad seperti lokasi, tipe file image, nama file, ukuran file, dll.
+ - Line 84 memanggil library upload .
+ - Line 86 - 88 melakukan uploading image dan id image.
+ - Line 90 mengembalikan nilai "default.jpg yang berfungsi bila tidak ada file image yang diupload".
+ -  Line 93 - 100 pada function _deleteImage berfungsi untuk menghapus gambar dengan id = '$id'.
+ - Line 93 mengambil data product yang memiliki id = '$id'.
+ - Line 96 - 99 melakukan penghapusan image apabila image tidak bernilai "default.jpg".
+ ![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147489978-db3222b2-c6f2-41e4-bf51-4112173e159f.png)kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada website.
+ 
+ - Line 5 - 11 membuat variabel $_tabel, $user_id, $full_name, $password, $email, $role yang berfungsi untuk menampung data form yang diinput client.
+ - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
+ ![Screenshot (22)](https://user-images.githubusercontent.com/61825704/147490248-ec67b1dd-3181-48b1-8492-75f3b9d0c45a.png)
+ - Line 60 - 77 pada function doLogin berfungsi untukverifikasi login apakah username dan password benar jika benar maka akan diarahkan kedalam dashboard jika salah maka akan dikembalikan di laman login.
+ - Line 61 data inputan disimpan kedalam **$post**
+ - Line 63 - 65 mengambil data pada tabel user yang memiliki email = email input dan username = username input.
+ - Line 67 - 75 berfungsi untuk memverifikasi password input dan role admin. jika benar maka user akan diberikan akses login dan data updatelastlogin akan disimpan.
+ - Line 79 - 81 berfungsi untuk memeriksa apakan akun sudah login atau belum.
+ - Line 83 - 86 berfungsi untuk mengupdate riwayat user login kedalam tabel user.
 ## View
 
 ## Controller 
