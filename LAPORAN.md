@@ -8,6 +8,13 @@ Merupakan sebuah aplikasi berbasis web yang berfungsi untuk melakukan pendataan 
 
 ## Sitemap / Hierarki Aplikasi & Penjelasan 
 
+![Hirarki App Werehouse](https://user-images.githubusercontent.com/61826116/147567792-4200d471-c37f-4efb-a695-790ffadb9cee.png)
+
+Dalam aplikasi werehouse memiliki 4 page utama yaitu halaman log in, halaman beranda, halaman products dan halaman log out.
+Pada halaman product terbagi menjadi 2 sub halaman yaitu halaman list barang dan halaman tambah barang. 
+Kemudian pada halaman list barang terdapat beberapa fitur selain tampilan list barang yang ada, yaitu fitur print untuk melakukan print semua list data barang, fitur edit data untuk melakukan perubahan terkait informasi data barang dan akan diarahkan ke halaman edit,
+fitur hapus untuk meghapus data barang dari database. Selain itu terdapat fitur tambah barang yang nantinya akan diarahkan ke halaman tambah barang
+
 ## Teknologi yang digunakan
 
 ## Cara Penggunaan Aplikasi 
