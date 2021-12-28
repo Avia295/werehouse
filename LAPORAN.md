@@ -123,6 +123,21 @@ kode js.php berfungsi untuk meload file JavaScript.
 - Line 12 berfungsi untuk meload JavaScript template.
 - Line 14 - 15 berfungsi untuk meload skrip demo.
 
+### modal.php
+
+### navbar.php
+
+### scrolltop.php
+
+### sidebar.php
+
+### login_page.php
+
+### overview.php
+
+### print.php
+
+
 ## Controller 
 ### Cetak.php
 
