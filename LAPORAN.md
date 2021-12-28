@@ -24,7 +24,8 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 -  Mudah dipelajari, untuk pemula, Codeigniter sangat mudah dipelajari karena tidak terlalu bergantung pada tool tambahan.
 ## Cara Penggunaan Aplikasi
 
-
+1. Login untuk masuk ke dalam Aplikasi
+2. Memilih menu 
 ## Fitur Aplikasi 
 
 1. Login
