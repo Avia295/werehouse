@@ -27,6 +27,12 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 
 ## Fitur Aplikasi 
 
+1. Login
+![login](https://user-images.githubusercontent.com/71740342/147612914-efae5178-aad8-42c2-8c64-780c0ca19cfd.jpg)
+Fitur login dibutuhkan untuk memudahkan pengguna/admin untuk masuk ke dalam aplikasi karena tidak perlu repot memasukkan data pribadi seperti no.hp, alamat, tanggal lahir  saat ingin masuk ke dalam aplikasi.
+
+2. CRUD
+
 # Penjelasan Kode Program
 ## Model
 ### Pagination_model
