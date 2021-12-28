@@ -32,8 +32,36 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 Fitur login dibutuhkan untuk memudahkan pengguna/admin untuk masuk ke dalam aplikasi karena tidak perlu repot memasukkan data pribadi seperti no.hp, alamat, tanggal lahir  saat ingin masuk ke dalam aplikasi.
 
 2. CRUD
-CRUD atau Create, Read, Update and Delete merupakan fungsi utama yanng melekat pada penggunaan database relasional beserta yang mengelolanya, seperti Oracle, MySQL, dan lain-lain.
--
+- Create
+![tambah](https://user-images.githubusercontent.com/71740342/147613262-b5da06e6-6e87-44fb-b1e3-e2c4942d4166.jpg)
+Create berguna untuk membuat record baru pada sistem data. Create sering disebut dengan istilah insert. 
+Pada aplikasi ini fitur create meliputi nama barang, kuantitas barang, gambar barang dan keterangan barang yang akan ditambahkan.
+
+- Read 
+![tampilkan](https://user-images.githubusercontent.com/71740342/147613244-70cddab8-c318-4513-a497-5b3f8677b929.jpg)
+Read berguna untuk menampilkan dan membaca tabel data yang telah sesuai serta informasi data akan ditampilkan pada fitur ini.
+
+- Update
+![update](https://user-images.githubusercontent.com/71740342/147613350-f8f6cc31-cc26-4f5d-8140-6ab04683e751.jpg)
+Update berguna untuk memperbaharui suatu tabel sesuai kata kunci utama (primary key) yang telah ditentukan pada sebuah record. 
+Dalam aplikasi fitur ini dapat digunakan untuk mengubah nama barang, kuantitas barang, gambar barang dan keterangan barang.
+
+- Delete
+![hapus](https://user-images.githubusercontent.com/71740342/147613357-7e8c3a92-6c14-4f5f-b3ef-539333df28de.jpg)
+Delete berguna untuk menghapus data yang tidak diinginkan pada tabel.
+
+3. Pagination
+![pagination](https://user-images.githubusercontent.com/71740342/147613643-03c33986-d262-414d-8969-c4cf8d8ed7cf.jpg)
+Pagination merupakan fitur web yang digunakan untuk membatasi tampilan data agar terliat lebih rapi dan tidak terlalu panjang sehingga tidak perlu menggulir halaman tersebut. 
+Pada aplikasi digunakan untuk menampilkan daftar penyimpanan barang pada sebuah gudang.
+
+4. Cetak
+![cetak](https://user-images.githubusercontent.com/71740342/147613740-c02b2788-b0cc-4b13-aea2-397ec055134f.jpg)
+Fitur cetak atau print pada aplikasi ini berguna untuk mencetak daftar barang yang telah dibuat pada gudang.
+
+5. Keluar
+![keluar](https://user-images.githubusercontent.com/71740342/147613840-af421aac-85ae-483c-aa61-c26a840754a9.jpg)
+Fitur keluar atau exit berguna untuk memudahkan pengguna(admin) untuk keluar dari aplikasi. 
 # Penjelasan Kode Program
 ## Model
 ### Pagination_model
