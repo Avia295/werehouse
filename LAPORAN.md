@@ -85,6 +85,43 @@ kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada w
  - Line 79 - 81 berfungsi untuk memeriksa apakan akun sudah login atau belum.
  - Line 83 - 86 berfungsi untuk mengupdate riwayat user login kedalam tabel user.
 ## View
+### breadcrumb.php
+![image](https://user-images.githubusercontent.com/76147557/147533456-16c6f13e-dea1-4f04-b094-b8ff7a86f8de.png)
+
+kode breadcrumb.php berfungsi untuk menampilkan sistem navigasi sekunder yang menunjukkan lokasi pengguna di situs web.
+
+-  Line 2 berfungsi untuk me-load class "breadcrumb" dari bootstrap.
+-  Line 3 - 18 menggunakan perulangan foreach, berfungsi untuk mengambil data dalam bentuk array yang akan ditampilkan berupa URI.
+- Line 10 - 15 menggunakan percabangan if untuk menampilkan URI yang sudah diidentifikasi dan mampu mendirect ke site URL.
+
+### footer.php
+![image](https://user-images.githubusercontent.com/76147557/147534948-3b8e25ea-8a8e-4ad8-87c5-5c334687cc7d.png)
+
+kode footer.php berfungsi untuk menampilkan catatan atau tulisan yang berada di bagian bagian bawah website.
+
+- Line 2 - 8 me-load css. lalu menampilkan tulisan Copyright Werehouse dan tahun menggunakan tag span.
+
+### head.php
+![image](https://user-images.githubusercontent.com/76147557/147535524-58284a47-49d2-4b84-b8be-a05d215fbc9b.png)
+
+Kode head.php berfungsi untuk menampilkan tulisan yang berada di bagian atas website sekaligus untuk me-load file css.
+
+- Line 5 berfungsi untuk menampilkan tulisan Werehouse.
+- Line 8 berfungsi untuk meload bootstrap.min.css yang di dalamnya berisi inti utama css bootstrap.
+- Line 11 berfungsi untuk meload all.min.css yang di dalamnya berisi custom font.
+- Line 14 berfungsi untuk meload dataTables.bootstrap4.css yang digunakan sebagai pagination. Fungsi ini tidak digunakan namun tetap disimpan karena beralih menggunakan fungsi pagination yang tersedia di codeigniter 3.
+- Line 17 berfungsi untuk meload sb-admin.css yang digunakan sebagai template style.
+
+### js.php
+![image](https://user-images.githubusercontent.com/76147557/147536395-b37335ae-5f1c-40a1-b95a-6e43f0bd84fc.png)
+
+kode js.php berfungsi untuk meload file JavaScript.
+
+- Line 2 - 3 berfungsi untuk meload inti JavaScript Bootstrap.
+- Line 6 berfungsi untuk meload inti masukkan JavaScript.
+- Line 8 - 10 berfungsi untuk meload fungsi pagination. Fungsi ini tidak digunakan namun tetap disimpan karena beralih menggunakan fungsi pagination yang tersedia di codeigniter 3.
+- Line 12 berfungsi untuk meload JavaScript template.
+- Line 14 - 15 berfungsi untuk meload skrip demo.
 
 ## Controller 
 ### Cetak.php
