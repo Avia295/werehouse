@@ -32,7 +32,8 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 Fitur login dibutuhkan untuk memudahkan pengguna/admin untuk masuk ke dalam aplikasi karena tidak perlu repot memasukkan data pribadi seperti no.hp, alamat, tanggal lahir  saat ingin masuk ke dalam aplikasi.
 
 2. CRUD
-
+CRUD atau Create, Read, Update and Delete merupakan fungsi utama yanng melekat pada penggunaan database relasional beserta yang mengelolanya, seperti Oracle, MySQL, dan lain-lain.
+-
 # Penjelasan Kode Program
 ## Model
 ### Pagination_model
