@@ -131,8 +131,28 @@ kode js.php berfungsi untuk meload file JavaScript.
 - Line 14 - 15 berfungsi untuk meload skrip demo.
 
 ### modal.php
+![1](https://user-images.githubusercontent.com/75412705/147575248-be89d191-e4ca-49d0-9530-b8e4976b1a1f.png)
+
+Kode modal.php berfungsi untuk menampilkan dialog atau yang biasa kita sebut dengan popup.
+- Line 2 berfungsi untuk memberikan efek fade atau efek memudar pada saat pemunculan dan penutupan modal.
+- Line 3 - 4 berfungsi sebagai container.
+- Line 5 - 10 digunakan sebagai header.
+- Line 11 digunakan sebagai body dan akan menampilkan dialog.
+- Line 12 - 15 berfungsi sebagai footer.
+- Line 22 berfungsi untuk memberikan efek fade atau efek memudar pada saat pemunculan dan penutupan modal.
+- Line 23 -24 berfungsi sebagai container.
+- Line 25 - 30 digunakan sebagai header.
+- Line 31 digunakan sebagai body dan akan menampilkan dialog.
+- Line 32 - 35 berfungsi sebagai footer.
 
 ### navbar.php
+![2](https://user-images.githubusercontent.com/75412705/147575420-62ef1800-4684-4500-9069-c383790759c7.png)
+
+Kode navbar.php merupakan komponen berupa menu yang terletak pada website.
+- Line 1 digunakan untuk membuat navigation bar dengan model yang sudah ditentukan.
+- Line 3 digunakan untuk mendefinisikan judul website.
+- Line 5 - 7 digunakan untuk membuat tombol.
+- Line 10 - 20 digunakan untuk membuat menu dropdown.
 
 ### scrolltop.php
 ![image](https://user-images.githubusercontent.com/76147557/147570972-f688b5e2-2bb8-45cd-9dcd-c7cb7dd6abb1.png)
@@ -153,11 +173,42 @@ kode sidebar.php digunakan untuk menampilkan icon atau tulisan di area samping w
 - Line 20 - 22 digunakan untuk menampilkan tulisan "Logout" dan jika ditekan maka akan muncul box logout.
 
 ### login_page.php
+![3](https://user-images.githubusercontent.com/75412705/147575465-a5f1ed19-c6ae-4d3e-bf1b-08632cd91e6f.png)
+
+Kode login_page.php berfungsi untuk login bagi admin / pengguna.
+- Line 2 digunakan untuk mengubah bahasa file tersebut.
+- Line 5 - 8 adalah judul yang muncul di halaman pencarian.
+- Line 11 digunakan untuk memanggil bootstrap.
+- Line 16 - 22 digunakan untuk menampilkan judul halaman.
+- Line 23 - 50 digunakan untuk menampilkan form dari login.
 
 ### overview.php
+![4](https://user-images.githubusercontent.com/75412705/147575507-63ab3e31-150d-4008-bb75-0372c8b2c0ce.png)
+
+Kode overview.php berfungsi untuk tampilan beranda atau halaman setelah melakukan login.
+- Line 2 digunakan untuk mengubah bahasa file tersebut.
+- Line 4 digunakan untuk memanggil view bernama head.php.
+- Line 8 digunakan untuk memanggil view bernama navbar.php.
+- Line 12 digunakan untuk memanggil view bernama sidebar.php.
+- Line 18 digunakan untuk memanggil view bernama breadcrumb.php.
+- Line 20 untuk menampilkan judul halaman.
+- Line 23 digunakan untuk memanggil view bernama footer.php.
+- Line 32 digunakan untuk memanggil view bernama scrolltop.php.
+- Line 33 digunakan untuk memanggil view bernama modal.php.
+- Line 34 digunakan untuk memanggil view bernama js.php.
 
 ### print.php
+![5](https://user-images.githubusercontent.com/75412705/147575552-4c0e26b5-3be3-4af5-8b37-ee3e7279d3d6.png)
 
+Kode print.php berfungsi untuk mencetak tampilan pada list barang.
+- Line 4 digunakan untuk menamai halaman.
+- Line 7 - 14 digunakan untuk membuat tabel.
+- Line 22 digunakan untuk menampilkan isi variabel dari id.
+- Line 23 digunakan untuk menampilkan isi variabel dari name.
+- Line 24 digunakan untuk menampilkan isi variabel dari quantity.
+- Line 25 digunakan untuk menampilkan isi variabel dari image.
+- Line 26 digunakan untuk menampilkan isi variabel dari description.
+- Line 32 - 34 digunakan untuk menampilkan jendela print.
 
 ## Controller 
 ### Cetak.php
