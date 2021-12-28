@@ -135,8 +135,22 @@ kode js.php berfungsi untuk meload file JavaScript.
 ### navbar.php
 
 ### scrolltop.php
+![image](https://user-images.githubusercontent.com/76147557/147570972-f688b5e2-2bb8-45cd-9dcd-c7cb7dd6abb1.png)
+
+kode scrolltop.php digunakan untuk direct ke #page-top, dimana #pagetop ini sendiri akan digunakan di head.php.
+
+- Line 2 - 4 berfungsi untuk men-direct ke #page-top.
 
 ### sidebar.php
+![image](https://user-images.githubusercontent.com/76147557/147571224-4d675126-9ddf-4be3-9f7e-1631285a206f.png)
+
+kode sidebar.php digunakan untuk menampilkan icon atau tulisan di area samping website.
+
+- Line 2 digunakan untuk mengatur letak dan warna sidebar menggunakan template bootstrap.
+- Line 3 - 8 digunakan untuk menampilkan tulisan "Beranda" dan jika ditekan maka akan mendirectnya ke halaman overview.
+- Line 9 - 13 digunakan untuk menampilkan tulisan "Products" dan jika ditekan akan dropdown menu lain.
+- Line 15 - 18 berupa hasil dropdown tulisan "Products". Menu dropdown berupa "Tambah Barang" yang akan mendirect ke halaman products/add dan "List Barang" yang akan mendirect ke halaman products.
+- Line 20 - 22 digunakan untuk menampilkan tulisan "Logout" dan jika ditekan maka akan muncul box logout.
 
 ### login_page.php
 
