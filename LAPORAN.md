@@ -17,7 +17,13 @@ fitur hapus untuk meghapus data barang dari database. Selain itu terdapat fitur 
 
 ## Teknologi yang digunakan
 
-## Cara Penggunaan Aplikasi 
+Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeigniter 3 merupakan salah satu framework PHP yang sangat populer dengan konsep MVC dan sudah sering digunakan  oleh komunitas di seluruh dunia.  Keunggulan Codeigniter meliputi:
+- Performa yang cepat, Codeigniter merupakan framework yang paling cepat dibandingkan framework lainna. Hal ini dipengaruhi oleh tidak ada penggunaan template engine dan ORM yang membuat proses menjadi lambat.
+-  Konfigurasi yang minim,  dalam penyesuaian database serta keleluasan routing masih diizinkan melakukan konfigurasi dengan mengubah beberapa file konfigurasi, namun pada penggunaan Codeigniter dengan setting standar sudah dapat mengubah sedikit saja pada file dalam folder coding.
+-  Banyak komunitas, komunitas Codeigniter di Indonesia cukup banyak sehingga dapat mencari tutoria penggunaan framework ini dengan mudah
+-  Mudah dipelajari, untuk pemula, Codeigniter sangat mudah dipelajari karena tidak terlalu bergantung pada tool tambahan.
+## Cara Penggunaan Aplikasi
+
 
 ## Fitur Aplikasi 
 
