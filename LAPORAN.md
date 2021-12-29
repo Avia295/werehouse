@@ -288,6 +288,10 @@ Kode print.php berfungsi untuk mencetak tampilan pada list barang.
 ## Controller 
 ### Cetak.php
 
+![cetak_c](https://user-images.githubusercontent.com/71740342/147619831-247dd959-0951-4977-abfa-ab6133ac11a0.jpg)
+Code controller class Cetak berfungsi untuk menghubungkan "product_model" dan "user_model" dengan view yang bernama "print.php".
+- Line 4-10 terdapat fungsi_construct dimana dalam fungsi tersebut memuat model "product_model" dan "user_model". Pada line 9 terdapat kondisi dimana jika user belum melakukan login maka akan diarahkan ke halaman login terlebih dahulu tetapi jika user telah melakukan login maka proses akan berlanjut.
+- Line 11-17 terdapat fungsi index dimana dalam fungsi tersebut yang terletak pada line 12 ada kode program untuk menampilkan data dengan memanggil fungsi getAll yang terdapat dalam model "product_model". Lalu pada line 13, meload view yang bernama "print.php".
 ### Login.php
 
 ### Overview.php
