@@ -56,7 +56,7 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 ![hapus](https://user-images.githubusercontent.com/71740342/147616121-e53fe7f0-7a45-459c-aa4f-27f8e0212d6e.jpg)
 
 9 Pengguna(admin) dapat meninggalkan/keluar dari aplikasi dengan mengklik menu keluar.
-![hapus](https://user-images.githubusercontent.com/71740342/147616134-d959c061-6d47-4fe4-9d60-04ddc529085b.png)
+![keluar_menu](https://user-images.githubusercontent.com/71740342/147616228-ead0c817-369e-44a9-9642-4c6112f6d263.png)
 ![keluar](https://user-images.githubusercontent.com/71740342/147616129-64d0ae98-b04b-4054-b079-e4947d943b74.jpg)
 
 ## Fitur Aplikasi 
