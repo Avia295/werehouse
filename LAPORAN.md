@@ -37,6 +37,7 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 4. Untuk pilihan tambah barang, pengguna dapat menambahkan barang meliputi nama barang, kuantitas barang, gambar barang dan keterangan barang.
 ![tambah_menu](https://user-images.githubusercontent.com/71740342/147615985-5980768d-9402-4ad9-843b-a6a8658b667e.png)
 ![tambah_barang](https://user-images.githubusercontent.com/71740342/147615923-e5a33e45-5f0a-4f27-8a05-68066cb4d93d.jpg)
+![tambah_berhasil](https://user-images.githubusercontent.com/71740342/147624199-bf2574a2-ba88-4697-b9ee-b7a16e9f771d.jpg)
 
 5. Untuk pilihan daftar barang, pengguna dapat melihat daftar barang serta dapat pergi ke halaman selanjutnya untuk melihat daftar barang lainnya dengan menekan button pagination di bawah.
 ![daftar_menu](https://user-images.githubusercontent.com/71740342/147615995-45a0908d-2e31-401b-9856-02ce2bf437ff.png)
@@ -51,7 +52,7 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 ![sunting](https://user-images.githubusercontent.com/71740342/147616076-435bec0c-83ed-4cd7-8e0f-759168091202.png)
 ![update](https://user-images.githubusercontent.com/71740342/147616086-72b3a88e-c329-4e81-a507-47bd2f0d7977.jpg)
  
-8. Lalu untuk menghapus record data yang tidak diinginkan pada daftar barang dapat menekan fitur hapus.
+8. Lalu untuk menghapus record data yang tidak diinginkan pada daftar barang dapat menekan fitur hapus.Setelah itu akn kembali pada halaman pertama daftar barang dan data yang dipilih tadi sudah terhapus.
 ![hapus](https://user-images.githubusercontent.com/71740342/147616113-5d2dd866-064f-4146-a0da-942abe1cc9e9.png)
 ![hapus](https://user-images.githubusercontent.com/71740342/147616121-e53fe7f0-7a45-459c-aa4f-27f8e0212d6e.jpg)
 
@@ -68,6 +69,7 @@ Fitur login dibutuhkan untuk memudahkan pengguna/admin untuk masuk ke dalam apli
 2. CRUD
 - Create
 ![tambah](https://user-images.githubusercontent.com/71740342/147613262-b5da06e6-6e87-44fb-b1e3-e2c4942d4166.jpg)
+![tambah_berhasil](https://user-images.githubusercontent.com/71740342/147624199-bf2574a2-ba88-4697-b9ee-b7a16e9f771d.jpg)
 Create berguna untuk membuat record baru pada sistem data. Create sering disebut dengan istilah insert. 
 Pada aplikasi ini fitur create meliputi nama barang, kuantitas barang, gambar barang dan keterangan barang yang akan ditambahkan.
 
