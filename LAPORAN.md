@@ -24,8 +24,41 @@ Teknologi yang digunakan dalam program yaitu framework Codeigniter 3. Codeignite
 -  Mudah dipelajari, untuk pemula, Codeigniter sangat mudah dipelajari karena tidak terlalu bergantung pada tool tambahan.
 ## Cara Penggunaan Aplikasi
 
-1. Login untuk masuk ke dalam Aplikasi
-2. Memilih menu 
+1. Masuk ke dalam aplikasi dengan memasukkan username/email dan kata sandi.
+![login](https://user-images.githubusercontent.com/71740342/147615804-8feb9a5d-df88-4004-9b6e-b5127936b2fb.jpg)
+
+2. Setelah masuk aplikasi, aplikasi akan menampilkan beranda. Untuk memilih menu aplikasi, pengguna dapat memilihnya pada bagian kiri halaman, yaitu beranda, product dan keluar.
+![beranda](https://user-images.githubusercontent.com/71740342/147615816-e7a184b5-d7a2-4654-b0b5-f54321a7ee73.jpg)
+
+3. Pada menu product, pengguna dapat memilih antara tambah barang dan daftar barang.
+![product_menu](https://user-images.githubusercontent.com/71740342/147615898-161aecb5-d1df-41af-b68f-69e29404420e.png)
+![product1](https://user-images.githubusercontent.com/71740342/147615959-e471a818-00d7-4337-b939-ff3b8f9537d3.jpg)
+
+4. Untuk pilihan tambah barang, pengguna dapat menambahkan barang meliputi nama barang, kuantitas barang, gambar barang dan keterangan barang.
+![tambah_menu](https://user-images.githubusercontent.com/71740342/147615985-5980768d-9402-4ad9-843b-a6a8658b667e.png)
+![tambah_barang](https://user-images.githubusercontent.com/71740342/147615923-e5a33e45-5f0a-4f27-8a05-68066cb4d93d.jpg)
+
+5. Untuk pilihan daftar barang, pengguna dapat melihat daftar barang serta dapat pergi ke halaman selanjutnya untuk melihat daftar barang lainnya dengan menekan button pagination di bawah.
+![daftar_menu](https://user-images.githubusercontent.com/71740342/147615995-45a0908d-2e31-401b-9856-02ce2bf437ff.png)
+![pagination_fitur](https://user-images.githubusercontent.com/71740342/147616019-a90f34af-a224-4ac7-95ef-f386b8d3572a.png)
+![pagination2](https://user-images.githubusercontent.com/71740342/147616044-69cc398e-c6c5-4608-9827-05a68ac2987d.png)
+
+6. Jika pengguna(admin) mencetak daftar barang maka dapat memilih fitur cetak. Dan halaman akan mengantarkan pengguna untuk mencetaknya. Dan jika pengguna ingin menambahkan data barang dari halaman daftar barang dapat menekan fitur 'Tambah Data' yang terletak di samping fitur 'Mencetak'.
+![ceetak](https://user-images.githubusercontent.com/71740342/147616052-b0d71567-ed8f-4323-b321-30a0d2944474.png)
+![cetak](https://user-images.githubusercontent.com/71740342/147616058-597ddc69-6e1b-48e4-aa29-c4eb80a74c95.jpg)
+
+7. Lalu untuk mengubah isi dari record data barang pada tabel dapat memilih fitur sunting. Pada fitur tersebut, pengguna(admin) dapat mengubah nama barang, kuantitas barang, gambar barang dan keterangan barang.
+![sunting](https://user-images.githubusercontent.com/71740342/147616076-435bec0c-83ed-4cd7-8e0f-759168091202.png)
+![update](https://user-images.githubusercontent.com/71740342/147616086-72b3a88e-c329-4e81-a507-47bd2f0d7977.jpg)
+ 
+8. Lalu untuk menghapus record data yang tidak diinginkan pada daftar barang dapat menekan fitur hapus.
+![hapus](https://user-images.githubusercontent.com/71740342/147616113-5d2dd866-064f-4146-a0da-942abe1cc9e9.png)
+![hapus](https://user-images.githubusercontent.com/71740342/147616121-e53fe7f0-7a45-459c-aa4f-27f8e0212d6e.jpg)
+
+9 Pengguna(admin) dapat meninggalkan/keluar dari aplikasi dengan mengklik menu keluar.
+![hapus](https://user-images.githubusercontent.com/71740342/147616134-d959c061-6d47-4fe4-9d60-04ddc529085b.png)
+![keluar](https://user-images.githubusercontent.com/71740342/147616129-64d0ae98-b04b-4054-b079-e4947d943b74.jpg)
+
 ## Fitur Aplikasi 
 
 1. Login
