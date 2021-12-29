@@ -294,6 +294,14 @@ Code controller class Cetak berfungsi untuk menghubungkan "product_model" dan "u
 - Line 11-17 terdapat fungsi index dimana dalam fungsi tersebut yang terletak pada line 12 ada kode program untuk menampilkan data dengan memanggil fungsi getAll yang terdapat dalam model "product_model". Lalu pada line 13, meload view yang bernama "print.php".
 ### Login.php
 
+![login_c](https://user-images.githubusercontent.com/71740342/147622167-293cb565-2503-417a-9419-3e6e66d3a601.jpg)controller class Login berguna untuk menghubungkan model "user_model" dan library "form_validation" dengan view bernama "login_page.php".
+- Line 5-11 terdapat fungsi_construct yang memuat model "user_model" dan library "form_validation".
+- Line 13-19 terdapat fungsi index, dalam fungsi tersebut terdapat kondisi dimana jika user telah melakukan login maka akan diarahkan ke halaman overview, sedangkan jika belum melakukan login maka akan me load view yang bernama "login_page.php".
+
+![login_c2](https://user-images.githubusercontent.com/71740342/147622178-ad4bb70b-d00e-45d4-8e21-32297fd8aed2.jpg)
+- Line 21-25 terdapat fungsi logout() terdapat fungsi logout, fungsi ini berguna untuk menghapus sesi yang dimiliki user. Lalu setelah itu akan mengarahkan user ke halaman login untuk keluar dari aplikasi.
+- Line 27-33 terdapat fungsi test, fungsi ini berguna untuk mengeset media type pada halaman sehingga dapat menyajikan data JSON, JPEG, XML dengan mudah.
+
 ### Overview.php
 
 ![img 1](https://user-images.githubusercontent.com/61826116/147367127-034d8d66-4046-49d9-96aa-825608dc8cfb.jpg)
