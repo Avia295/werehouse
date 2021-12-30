@@ -148,7 +148,7 @@ kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan
  
 ### User_model
 
- ![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147489978-db3222b2-c6f2-41e4-bf51-4112173e159f.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/61825704/147715529-f39a3093-d321-429b-ba9b-690d84b4b13f.png)
  
 kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada website.
  
