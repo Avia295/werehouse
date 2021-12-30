@@ -125,6 +125,8 @@ kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan
  - Line 42 data inputan disimpan kedalam **$post**.
  - Line 43 - 46 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
  - Line 47 menginput data produk baru ke dalam tabel product.
+ 
+ ![Screenshot (26)](https://user-images.githubusercontent.com/61825704/147715462-3337e65f-59ce-47bf-96d6-dd94ae59b175.png)
  - Line 50 - 66 pada function update berfungsi untuk mengupdate isi tabel product dengan id tertentu .
  - Line 52 data inputan disimpan kedalam **$post**.
  - Line 53 - 64 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
