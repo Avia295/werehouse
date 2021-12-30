@@ -111,14 +111,14 @@ kode Pagination_model diatas berfungsi untuk membuat pagination pada website.
  
 ### Product_model
 
- ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147714822-da943ffc-0dfc-4ccf-9bd6-cfd45bc4c5be.png)
+ ![Screenshot (24)](https://user-images.githubusercontent.com/61825704/147715250-6dcdcc2d-850f-492b-bdff-330dd85b9bb6.png)
 
 kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan dalam website.
  
  - Line 5 - 11 membuat variabel $_table, $product_id, $image, $name, $quantity, $description yang berfungsi untuk menampung data form yang diinput client.
+ - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
 
-![Screenshot (18)](https://user-images.githubusercontent.com/61825704/147714766-a9ce2972-490c-4f34-8d45-8764c2c9a22b.png)
-
+![Screenshot (25)](https://user-images.githubusercontent.com/61825704/147715253-1b4aa9e8-73bb-4376-9861-625cc4b47ce7.png)
  - Line 40 - 48 pada function save berfungsi untuk menyimpan inputan form yang dikirim melalui method POST dan menyimpannya ke dalam tabel product sebagai data produk baru. 
  - Line 42 data inputan disimpan kedalam **$post**.
  - Line 43 - 46 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
@@ -149,7 +149,6 @@ kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan
 kode User_model berfungsi untuk proses Login, Logout dan pengelolaan akun pada website.
  
  - Line 5 - 11 membuat variabel $_tabel, $user_id, $full_name, $password, $email, $role yang berfungsi untuk menampung data form yang diinput client.
- - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
 
  ![Screenshot (22)](https://user-images.githubusercontent.com/61825704/147490248-ec67b1dd-3181-48b1-8492-75f3b9d0c45a.png)
 	
