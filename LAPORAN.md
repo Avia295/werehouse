@@ -248,8 +248,8 @@ kode sidebar.php digunakan untuk menampilkan icon atau tulisan di area samping w
 
 Kode login_page.php berfungsi untuk login bagi admin / pengguna.
 - Line 2 digunakan untuk mengubah bahasa file tersebut.
-- Line 5 - 8 adalah judul yang muncul di halaman pencarian.
-- Line 11 digunakan untuk memanggil bootstrap.
+- Line 5 - 8 adalah judul yang muncul di halaman.
+- Line 11 digunakan untuk memanggil css.
 - Line 16 - 22 digunakan untuk menampilkan judul halaman.
 - Line 23 - 50 digunakan untuk menampilkan form dari login.
 
