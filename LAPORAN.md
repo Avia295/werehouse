@@ -111,22 +111,13 @@ kode Pagination_model diatas berfungsi untuk membuat pagination pada website.
  
 ### Product_model
 
- ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147485519-264edecd-cccb-4a4b-9ee8-3c664afb0eb4.png)
+ ![Screenshot (17)](https://user-images.githubusercontent.com/61825704/147714822-da943ffc-0dfc-4ccf-9bd6-cfd45bc4c5be.png)
 
 kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan dalam website.
  
  - Line 5 - 11 membuat variabel $_table, $product_id, $image, $name, $quantity, $description yang berfungsi untuk menampung data form yang diinput client.
- - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
- - Line 30 - 33 pada function getAll berfungsi untuk mengambil seluruh isi tabel, kode ini sama seperti kode sql berikut :
 
-> SELECT * FROM products;
-
-![Screenshot (18)](https://user-images.githubusercontent.com/61825704/147486253-3c68fb2f-b75c-4c34-aba2-e64f2370a163.png)
-
- - Line 35 - 38 pada function getById berfungsi untuk mengambil data pada tabel product yang memiliki id = $id, kode ini sama seperti kode sql berikut :
- 
-
-> SELECT * FROM products WHERE id = '$id'
+![Screenshot (18)](https://user-images.githubusercontent.com/61825704/147714766-a9ce2972-490c-4f34-8d45-8764c2c9a22b.png)
 
  - Line 40 - 48 pada function save berfungsi untuk menyimpan inputan form yang dikirim melalui method POST dan menyimpannya ke dalam tabel product sebagai data produk baru. 
  - Line 42 data inputan disimpan kedalam **$post**.
