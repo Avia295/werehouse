@@ -117,8 +117,10 @@ kode Product_model berfungsi untuk proses CRUD pada produk yang akan ditampilkan
  
  - Line 5 - 11 membuat variabel $_table, $product_id, $image, $name, $quantity, $description yang berfungsi untuk menampung data form yang diinput client.
  - Line 13- 28 pada function rules berfungsi untuk inisialisasi form validation dengan menyiapkan array assosiatif yang berisi data form yang akan divalidasi seperti field, label dan rules pada form yang akan divalidasi.
+ - Line 30 - 33 pada function getAll berfungsi untuk mengambil seluruh isi database pada table products
 
 ![Screenshot (25)](https://user-images.githubusercontent.com/61825704/147715253-1b4aa9e8-73bb-4376-9861-625cc4b47ce7.png)
+ - Line 35 - 38 pada function getById berfungsi untuk mengambil data tertentu pada table products yang memiliki id = '$id'
  - Line 40 - 48 pada function save berfungsi untuk menyimpan inputan form yang dikirim melalui method POST dan menyimpannya ke dalam tabel product sebagai data produk baru. 
  - Line 42 data inputan disimpan kedalam **$post**.
  - Line 43 - 46 hasil inputan akan disimpan kedalam variabel $product_id, image, name, quantity, description.
